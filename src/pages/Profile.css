@@ -1,0 +1,288 @@
+@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
+
+  .paiGeral-Profile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tituloProfile {
+    margin: 0 30px;
+  }
+
+  .imgProfile {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    margin: 20px 30px;
+    width: 100px;
+  }
+
+  .nickProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .emailProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .descProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 40px;
+    margin: 10px 0 40px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .linkProfile {
+    background: #9d9c9c;
+    border: 0 solid #585858;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px black;
+    color: white;
+    font-size: 14px;
+    margin: 0 15%;
+    padding: 13px 21px;
+    text-shadow: 1px 1px 0 #364b62;
+    width: 100%;
+  }
+
+  .testeProfile {
+    width: 90%;
+  }
+}
+
+@media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
+
+  .paiGeral-Profile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tituloProfile {
+    margin: 0 30px;
+  }
+
+  .imgProfile {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    margin: 70px 30px;
+    width: 100px;
+  }
+
+  .nickProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .emailProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .descProfile {
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(246, 246, 246);
+    font-size: 18px;
+    height: 40px;
+    margin: 10px 0 40px 10px;
+    padding: 8px;
+    width: 90%;
+  }
+
+  .linkProfile {
+    background: #9d9c9c;
+    border: 0 solid #585858;
+    border-radius: 10px;
+    box-shadow: 0 4px 7px black;
+    color: white;
+    font-size: 14px;
+    margin: 0 8%;
+    padding: 13px 21px;
+    text-shadow: 1px 1px 0 #364b62;
+    width: 100%;
+  }
+
+  .testeProfile {
+    width: 90%;
+  }
+}
+
+@media only screen and ( min-width : 1025px ) {
+
+  .paiGeral-Profile {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -150px;
+    width: 60%;
+  }
+
+  .tituloProfile {
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-weight: 500;
+    margin: 0 30px;
+  }
+
+  .imgProfile {
+    border: 2px solid rgb(68, 66, 66);
+    border-radius: 50%;
+    height: 300px;
+    margin: 0 30px 60px 90px;
+    width: 300px;
+  }
+
+  .avatarProfile {
+    background-color: white;
+    border-radius: 50%;
+    height: 300px;
+    margin: 0 30px 60px 90px;
+    width: 300px;
+  }
+
+  .nickProfile {
+    background-color: rgba(232, 232, 232, 0.803);
+    border-radius: 10px;
+    color: rgb(16, 15, 15);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 10px 8px 14px 10px;
+    width: 90%;
+  }
+
+  .emailProfile {
+    background-color: rgba(232, 232, 232, 0.803);
+    border-radius: 10px;
+    color: rgb(16, 15, 15);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    height: 24px;
+    margin: 10px 0 15px 10px;
+    padding: 10px 8px 14px 10px;
+    width: 90%;
+  }
+
+  .descProfile {
+    background-color: rgba(232, 232, 232, 0.803);
+    border-radius: 10px;
+    color: rgb(16, 15, 15);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    height: 55px;
+    margin: 10px 0 40px 10px;
+    padding: 10px 8px 14px 10px;
+    width: 90%;
+  }
+
+  .linkProfile {
+    background: #220202;
+    border: 0 solid #585858;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(71, 71, 71, 0.664);
+    color: white;
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    margin: 0 40px;
+    padding: 14px 30px 18px;
+    text-shadow: 1px 1px 0 #364b62;
+    width: 100%;
+  }
+
+  .linkProfile:hover {
+    box-shadow: 0 5px 10px 0 rgba(71, 71, 71, 0.884);
+    padding: 16px 32px 20px;
+  }
+
+  .testeProfile {
+    margin-left: 100px;
+    width: 100%;
+  }
+
+  .divProgressP {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .progressloadingP {
+    animation: progressH 2s infinite steps(6);
+    background: linear-gradient(#111110 0 0) left/0% 100% no-repeat #ebebeb;
+    height: 25px;
+    margin: 0 auto;
+    mask: radial-gradient(circle closest-side, #fa9a00 94%, #0000) left/20% 100%;
+    width: 180px;
+  }
+
+  .progressP {
+    color: black;
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  @keyframes progressH {
+
+    100% {
+      background-size: 120% 100%;
+    }
+
+  }
+}

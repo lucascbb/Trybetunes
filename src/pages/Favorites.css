@@ -1,0 +1,259 @@
+@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
+
+  .tituloFavorites {
+    border-bottom: 1px solid black;
+    margin: 30px 60px 20px 15px;
+    padding-left: 10px;
+  }
+
+  .teste {
+    backdrop-filter: blur(6.5px);
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(70, 74, 126, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 4%;
+    width: 90%;
+  }
+
+  .paiGeralFavorites {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    width: 46vh;
+  }
+
+  .audioFavorites {
+    height: 30px;
+    margin: -10px 0 20px 15px;
+    width: 90%;
+  }
+
+  .nomeMusicaFavorites {
+    background-color: rgba(194, 194, 194, 0.25);
+    color: black;
+    font-size: 14px;
+    height: 5%;
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .nomeArtistaFavorites {
+    background-color: rgba(194, 194, 194, 0.25);
+    color: rgb(126, 123, 123);
+    font-size: 14px;
+    width: 200px;
+  }
+
+  .imgFavorites {
+    border-radius: 5px;
+    height: 60px;
+    margin: 10px;
+    width: 60px;
+  }
+
+  .names-audio-check-Favorites input {
+    cursor: pointer;
+    font-size: 30px;
+    margin: -20px 0 0 0.7rem;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+  }
+
+  .names-audio-check-Favorites input:before {
+    content: '\2661';
+    position: absolute;
+    transform: scale(0.5);
+    visibility: visible;
+  }
+
+  .names-audio-check-Favorites input:checked:before {
+    content: '\♥️';
+    position: absolute;
+    transform: scale(0.8);
+  }
+
+}
+
+@media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
+
+  .tituloFavorites {
+    border-bottom: 1px solid black;
+    margin: 30px 60px 20px 15px;
+    padding-left: 10px;
+  }
+
+  .teste {
+    backdrop-filter: blur(6.5px);
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(70, 74, 126, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 4%;
+    width: 90%;
+  }
+
+  .paiGeralFavorites {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    width: 46vh;
+  }
+
+  .audioFavorites {
+    height: 30px;
+    margin: -10px 0 20px 15px;
+    width: 90%;
+  }
+
+  .nomeMusicaFavorites {
+    color: black;
+    font-size: 16px;
+    height: 5%;
+    margin-top: 10px;
+    width: 120%;
+  }
+
+  .nomeArtistaFavorites {
+    color: rgb(126, 123, 123);
+    font-size: 16px;
+    margin: 5px 0;
+    width: 120%;
+  }
+
+  .imgFavorites {
+    border-radius: 5px;
+    height: 80px;
+    margin: 10px 10px 0 20px;
+    width: 80px;
+  }
+
+  .names-audio-check-Favorites input {
+    cursor: pointer;
+    font-size: 30px;
+    margin: -20px 0 0 0.7rem;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+  }
+
+  .names-audio-check-Favorites input:before {
+    content: '\2661';
+    position: absolute;
+    transform: scale(0.5);
+    visibility: visible;
+  }
+
+  .names-audio-check-Favorites input:checked:before {
+    content: '\♥️';
+    position: absolute;
+    transform: scale(0.8);
+  }
+
+}
+
+@media only screen and ( min-width : 1025px ) {
+
+  .teste {
+    backdrop-filter: blur(6.5px);
+    background: rgba(74, 72, 72, 0.25);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px 0 20px 400px;
+    width: 1300px;
+  }
+
+  .teste:hover {
+    background: rgba(24, 23, 23, 0.316);
+  }
+
+  .tituloFavorites {
+    color: rgb(1, 1, 1);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 56px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin: 20px 0 10px 380px;
+  }
+
+  .paiGeralFavorites {
+    align-items: center;
+    display: flex;
+  }
+
+  .teste label {
+    background-color: rgba(109, 109, 109, 0.539);
+    border-radius: 10px;
+    color: rgb(249, 244, 244);
+    font-size: 20px;
+    font-weight: 900;
+    margin: 55px 0 0 10px;
+    padding: 12px 20px 12px 10px;
+    visibility: hidden;
+  }
+
+  .teste label:before {
+    content: url('/src/imagens/heart.png');
+    position: absolute;
+    transform: scale(1.5);
+    visibility: visible;
+  }
+
+  .imgFavorites {
+    border-radius: 20px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .nomeMusicaFavorites {
+    color: rgb(16, 16, 16);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin-left: 10px;
+    max-width: 350px;
+    width: 350px;
+  }
+
+  .nomeArtistaFavorites {
+    color: rgba(65, 65, 62, 0.819);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+    margin: 5px 0 20px 10px;
+  }
+
+  .audioFavorites {
+    height: 110px;
+    margin: 0 40px 20px 20px;
+    width: 600px;
+  }
+
+  .paideTodos {
+    overflow-y: auto;
+  }
+
+  .allMusics {
+    height: 580px;
+    overflow-y: auto;
+    width: 1750px;
+  }
+
+}

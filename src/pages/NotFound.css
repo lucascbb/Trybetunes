@@ -1,0 +1,45 @@
+@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
+
+  .tituloNOT {
+    background-image: url('https://media.tenor.com/IHdlTRsmcS4AAAAM/404.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 420px 420px;
+    color: black;
+    font-size: 50px;
+    height: 420px;
+  }
+
+}
+
+@media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
+
+  .tituloNOT {
+    background-image: url('https://media.tenor.com/IHdlTRsmcS4AAAAM/404.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    color: black;
+    font-size: 50px;
+    height: 600px;
+    text-align: center;
+  }
+
+}
+
+@media only screen and ( min-width : 1025px ) {
+
+  .tituloNOT {
+    background-image: url('/src/imagens/3819740.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1620px;
+    color: black;
+    font-size: 50px;
+    height: 980px;
+    margin: 0 0 0 300px;
+    margin-top: -250px;
+    text-align: center;
+    z-index: 1;
+  }
+}

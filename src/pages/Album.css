@@ -1,0 +1,296 @@
+@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
+
+  .paiImgAbum {
+    display: flex;
+    filter: blur(1px) , contrast(100%) , brightness(85%);
+    flex-direction: column;
+  }
+
+  .collectionAlbum {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(14, 9, 9);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -5px;
+    padding: 15px 0 5px;
+    text-align: center;
+  }
+
+  .artistAlbum {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(205, 205, 205);
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .checkMusicCard input {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 0 0 18rem;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+  }
+
+  .checkMusicCard input:before {
+    content: '\2661';
+    position: absolute;
+    transform: scale(1.2);
+    visibility: visible;
+  }
+
+  .checkMusicCard input:checked:before {
+    content: '\♥️';
+    position: absolute;
+    transform: scale(1.5);
+  }
+
+  .nomeMusica {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .audio {
+    margin: 5px 10px 0;
+    width: 70%;
+  }
+}
+
+@media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
+
+  .paiImgAbum {
+    box-shadow: 10px 10px 20px rgb(91, 91, 91) , -10px -10px 20px rgb(91, 91, 91);
+    display: flex;
+    filter: blur(1px) , contrast(100%) , brightness(85%);
+    flex-direction: column;
+    transform: scale(0.9);
+  }
+
+  .collectionAlbum {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(14, 9, 9);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -5px;
+    padding: 15px 0 5px;
+    text-align: center;
+  }
+
+  .artistAlbum {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: rgb(205, 205, 205);
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .favoritaAlbum {
+    font-weight: 900;
+    margin: 10px 0 0 5vh;
+    padding: 10px;
+  }
+
+  .checkMusicCard input {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 0 0 13vh;
+    position: relative;
+    top: -25px;
+    visibility: hidden;
+  }
+
+  .checkMusicCard input:before {
+    content: '\2661';
+    transform: scale(1);
+    visibility: visible;
+  }
+
+  .checkMusicCard input:checked:before {
+    content: '\♥️';
+    transform: scale(1.4);
+  }
+
+  .nomeMusica {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+
+  .audio {
+    margin: 5px 30px 0;
+    width: 80%;
+  }
+
+}
+
+@media only screen and ( min-width : 1025px ) {
+
+  .album-musicCard-Pai {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 698px;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  .paiImgAbum {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: -150px;
+  }
+
+  .imgAlbum {
+    border-radius: 15px;
+    height: 300px;
+    padding: 5px;
+  }
+
+  .collectionAlbum {
+    color: rgb(243, 243, 243);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 50px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin-left: 30px;
+    max-height: 120px;
+    max-width: 900px;
+  }
+
+  .artistAlbum {
+    color: rgb(136, 136, 136);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin-left: 30px;
+    max-height: 55px;
+    max-width: 600px;
+  }
+
+  .filtroPaiAlbum {
+    align-items: center;
+    background-color: rgba(22, 22, 24, 0.966);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(34, 32, 32, 0.37);
+    display: flex;
+    margin-left: 220px;
+    margin-top: -140px;
+    padding-right: 220px;
+    width: 1020px;
+    z-index: 1;
+  }
+
+  .textoImgAlmbum {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .musicasID {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 200px;
+    overflow-y: auto;
+  }
+
+  .musica {
+    align-items: center;
+    background-color: rgba(77, 70, 70, 0.247);
+    border-radius: 5px;
+    display: flex;
+    margin: 20px 15px 20px 20px;
+    padding: 10px 0;
+  }
+
+  .nomeMusica {
+    color: rgb(12, 11, 11);
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 22px;
+    font-variant-caps: all-petite-caps;
+    margin: 0 10px;
+    max-height: 50px;
+    max-width: 500px;
+    width: 400px;
+  }
+
+  .audio {
+    margin: 0 20px 0 0;
+    max-height: 45px;
+    width: 600px;
+  }
+
+  .musicasID label {
+    background-color: aqua;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: -50px;
+    margin-right: 20px;
+    padding: 5px;
+    visibility: hidden;
+    width: 100px;
+  }
+
+  .musicasID label :before {
+    content: url('/src/imagens/heartx.png');
+    visibility: visible;
+  }
+
+  .musicasID label :checked:before {
+    content: url('/src/imagens/heart.png');
+  }
+
+  .divProgressA {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  .progressloadingA {
+    animation: progressA 2s infinite steps(6);
+    background: linear-gradient(#63615f 0 0) left/0% 100% no-repeat #e9e9e9;
+    height: 25px;
+    margin: 0 auto;
+    mask: radial-gradient(circle closest-side, #fa9a00 94%, #0000) left/20% 100%;
+    width: 180px;
+  }
+
+  .progressA {
+    color: #050000;
+
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  @keyframes progressA {
+
+    100% {
+      background-size: 120% 100%;
+    }
+
+  }
+
+  .carregandoA {
+    visibility: hidden;
+  }
+
+}
