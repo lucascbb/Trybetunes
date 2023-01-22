@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/trybetunes/static/css/main.56d9eef0.css",
+    "main.js": "/trybetunes/static/js/main.6d0bab50.js",
+    "static/media/music file2-09.png": "/trybetunes/static/media/music file2-09.904ea63cc8333d8a93d7.png",
+    "static/media/logo-white.png": "/trybetunes/static/media/logo-white.c6ae3dae1ccf04f62785.png",
+    "static/media/Gotham-Black.otf": "/trybetunes/static/media/Gotham-Black.c9e42599a779a72eaadc.otf",
+    "static/media/logo-black.png": "/trybetunes/static/media/logo-black.552c606d76c89e900f55.png",
+    "static/media/user.png": "/trybetunes/static/media/user.bf2aa57c354883cb76fd.png",
+    "index.html": "/trybetunes/index.html",
+    "main.56d9eef0.css.map": "/trybetunes/static/css/main.56d9eef0.css.map",
+    "main.6d0bab50.js.map": "/trybetunes/static/js/main.6d0bab50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56d9eef0.css",
+    "static/js/main.6d0bab50.js"
+  ]
+}
