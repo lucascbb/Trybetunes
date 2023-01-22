@@ -1,75 +1,82 @@
-* {
-  margin: 0;
-  padding: 0;
+@media only screen and ( min-width : 300px ) and ( max-width : 480px ) {
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1550859492-d5da9d8e45f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size: 150%;
+  height: 340px;
 }
 
-@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
-
-  .tittleHeader {
-    visibility: hidden;
-  }
-
-  header {
-    background: linear-gradient(120deg, #66035c
-    0%, #303030 100%) , linear-gradient(300deg, #220101 0%, #0032e4 100%, #0032e7
-    100%) , linear-gradient(65deg, #01ebeb
-    0%, #e6005c 100%) , linear-gradient(185deg, #ed0000 10%, #1300de
-    95%) , radial-gradient(100%
-    140% at 100% 0%, #0092e7
-    0%, #e700b5 100%);
-    background-blend-mode: color-dodge , overlay , difference , color-dodge , normal;
-    height: 100%;
-    width: 100%;
-  }
-
-  .geralHeader {
-    display: block;
-    flex-direction: column;
-  }
-
-  .paiPIMGHeader {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-top: -40px;
-  }
-
-  .navHeader {
-    background-color: black;
-    box-shadow: 5px 5px 10px rgba(81, 80, 80, 0.897);
-    display: flex;
-    height: 45px;
-    justify-content: space-around;
-    padding-top: 14px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .linkHeader {
-    color: white;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .pHeader {
-    color: white;
-    font-size: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .loadingHeader {
-    color: white;
-    font-size: 24px;
-    margin-right: 20px;
-  }
-
-  .imagemHeader {
-    transform: scale(0.7);
-  }
-
+.paiPIMGHeader {
+  display: flex;
+  justify-content: center;
 }
+
+.imagemHeader {
+  padding: 20px;
+  width: 50%;
+}
+
+.navHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.linkHeader {
+  align-items: center;
+  background:linear-gradient(to bottom, #ffffff 5%, #d6d6d6 100%);
+  border:1px solid #e6e6e6;
+  border-radius: 20px;
+  box-shadow: inset 0px 1px 0px 0px #e8e8e8,
+              1px 2px 5px #09090994;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+  height: 30px;
+  justify-content: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e3e3e3;
+  padding: 5px 2px;
+  width: 100px;	
+}
+
+.profileHeader, .heartHeader, .searchHeader {
+  margin: 0 5px;
+}
+
+.nomeFotoHeader {
+  align-items: center;
+  background:linear-gradient(to bottom, #ffffff 5%, #d6d6d6 100%);
+  border-radius: 10px;
+  box-shadow: inset 2px 6px 8px #afafaf,
+            inset -2px -6px 8px #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin: 0 10px;
+  margin-bottom: -20px;
+  padding: 3px 2px;
+}
+
+.pHeader {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 10px 0;
+}
+
+.fotoPerfilHeader {
+  border-radius: 50%;
+  margin: 0 5px 0;
+  width: 40px;
+}
+
+} 
 
 @media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
 

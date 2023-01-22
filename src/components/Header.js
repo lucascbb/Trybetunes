@@ -4,7 +4,7 @@ import { CgProfile, CgSearch } from 'react-icons/cg';
 import { FaHeart } from 'react-icons/fa';
 import { getUser } from '../services/userAPI';
 import logoblack from '../imagens/logo-white.png';
-import './Header.css';
+import '../Styles/Header.css';
 
 class Header extends React.Component {
   constructor(props) {
@@ -16,7 +16,6 @@ class Header extends React.Component {
     };
 
     this.getName();
-    // console.log(this.state);
   }
 
   async componentDidMount() {
@@ -25,7 +24,6 @@ class Header extends React.Component {
     if (c.image === '' || c.image.length < oito) {
       this.setState({ fotoPerfil: false });
     } else { this.setState({ fotoPerfil: true }); }
-    console.log(c.image.length);
   }
 
   async getName() {
@@ -41,7 +39,6 @@ class Header extends React.Component {
     const { name, fotoPerfil, loading, foto } = this.state;
     return (
       <header data-testid="header-component">
-        {/* <h1 className="tittleHeader">Trybe Tunes</h1> */}
         <div className="geralHeader">
           <div className="paiPIMGHeader">
             <img
@@ -49,60 +46,56 @@ class Header extends React.Component {
               src={ logoblack }
               alt="logo trybetunes"
             />
-
-          </div>
-          <div className="navHeader">
-            <Link
-              to="/search"
-              data-testid="link-to-search"
-              className="linkHeader"
-            >
-              <CgSearch className="searchHeader" />
-              Search
-            </Link>
-            <Link
-              to="/favorites"
-              data-testid="link-to-favorites"
-              className="linkHeader"
-            >
-              <FaHeart className="heartHeader" />
-              Favoritos
-            </Link>
-            <Link
-              to="/profile"
-              data-testid="link-to-profile"
-              className="linkHeader"
-            >
-              <CgProfile className="profileHeader" />
-              Perfil
-            </Link>
           </div>
           <div className="nomeFotoHeader">
-            {fotoPerfil
-              ? (
-                <img
-                  src={ foto }
-                  alt={ name }
-                  className="fotoPerfilHeader"
-                />)
-              : null}
             {loading
               ? (
-                <div
-                  className="divProgressH"
-                >
+                <div className="divProgressH">
                   <p className="progressH">
                     Carregando...
                   </p>
-                  <div className="progressloadingH" />
                 </div>)
-              : (
+              : 
                 <p
                   data-testid="header-user-name"
                   className="pHeader"
                 >
                   {name}
-                </p>)}
+                </p>}
+                {fotoPerfil
+                  ? 
+                    <img
+                      src={ foto }
+                      alt={ name }
+                      className="fotoPerfilHeader"
+                    />
+                : null}
+          </div>
+          <div className="navHeader">
+            <Link
+              to="/trybetunes/search"
+              data-testid="link-to-search"
+              className="linkHeader"
+            >
+              <CgSearch className="searchHeader" />
+              <p>Search</p>
+            </Link>
+            <Link
+              to="/trybetunes/favorites"
+              data-testid="link-to-favorites"
+              className="linkHeader"
+            >
+              <FaHeart className="heartHeader" />
+              <p>Favoritos</p>
+            </Link>
+            <Link
+              to="/trybetunes/profile"
+              data-testid="link-to-profile"
+              className="linkHeader"
+            >
+              <CgProfile className="profileHeader" />
+              <p>Perfil</p>
+            </Link>
           </div>
         </div>
       </header>

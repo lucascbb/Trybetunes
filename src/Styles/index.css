@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+}
+
+@media only screen and ( max-width : 299px ) {
+  *{
+    all: unset;
+    background-color: black;
+  }
+  .imgDireita {
+    visibility: hidden;
+  }
+}

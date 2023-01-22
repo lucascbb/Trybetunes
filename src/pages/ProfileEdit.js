@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '../components/Header';
-import './ProfileEdit.css';
+import '../Styles/ProfileEdit.css';
 import { getUser, updateUser } from '../services/userAPI';
 
 class ProfileEdit extends React.Component {
@@ -52,7 +52,6 @@ class ProfileEdit extends React.Component {
         {loading ? <p>Carregando...</p>
           : (
             <section className="geralEdit">
-              <div className="paiInputsEdit">
                 <h1 className="tituloEdit">Editar perfil</h1>
                 <input
                   className="imgEdit"
@@ -102,12 +101,11 @@ class ProfileEdit extends React.Component {
                       email,
                       image: foto,
                       description: descricao });
-                    await push('/profile');
+                    await push('/trybetunes/profile');
                   } }
                 >
                   Salvar
                 </button>
-              </div>
             </section>)}
       </div>
 

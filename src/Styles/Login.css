@@ -1,0 +1,463 @@
+@media only screen and ( min-width : 300px ) and ( max-width : 480px ) {
+
+  @font-face {
+    font-family: Gotham-Black;
+    src: url('../fonts/Gotham-Spotify-Font/Gotham-Black.otf') format('truetype');
+  }
+
+  .paiLogin {
+    margin-top: 50px;
+  }
+
+  .loginEsquerda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoLogin {
+    margin: 30px 0;
+    width: 50%;
+  }
+
+  .titleLogin {
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .inputBtnLogin {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginNome {
+    border-radius: 8px;
+    margin: 10px 0 0;
+    padding: 10px;
+    width: 120%;
+  }
+
+  .loginBtn {
+    border-radius: 8px;
+    background-color: rgba(255, 136, 0, 1);
+    color: #000;
+    margin: 10px 0;
+    padding: 10px;
+    width: 132%;
+  }
+
+  .loginBtn:disabled {
+    filter: opacity(0.4);
+  }
+
+  .loginBtn:active {
+    filter: brightness(1.4)
+  }
+
+  .github, .linkedin {
+    font-size: 30px;
+    margin: 15px 10px;
+  }
+
+  .imgDireita {
+    background: radial-gradient(circle, rgba(255, 136, 0, 1)
+    52%, rgba(96, 64, 28, 1) 200%);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 430px;
+    z-index: -2;
+  }
+
+  .paiCarregando {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .carregandoProgress {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+  }
+
+  .divProgress {
+    width: 180px;
+    height: 25px;
+    -webkit-mask: radial-gradient(circle closest-side,#ffc547 94%,#0000) left/20% 100%;
+    background: linear-gradient(#ff9d47 0 0) left/0% 100% no-repeat #dbdcef;
+    animation: progress-c3ir73 2s infinite steps(6);
+    transform: scale(1.5);
+ }
+ 
+ @keyframes progress-c3ir73 {
+    100% {
+       background-size: 120% 100%;
+    }
+ }
+
+}
+
+@media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
+
+  @font-face {
+    font-family: Gotham-Black;
+    src: url('../fonts/Gotham-Spotify-Font/Gotham-Black.otf') format('truetype');
+  }
+
+  .paiLogin {
+    margin-top: 40px;
+  }
+
+  .loginEsquerda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoLogin {
+    margin: 30px 0 10px;
+    width: 30%;
+  }
+
+  .titleLogin {
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .inputBtnLogin {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginNome {
+    border-radius: 8px;
+    margin: 10px 0 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 30px;
+    width: 120%;
+  }
+
+  .loginBtn {
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 136, 0, 1);
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 130%;
+  }
+
+  .loginBtn:disabled {
+    filter: opacity(0.4);
+  }
+
+  .loginBtn:active {
+    filter: brightness(1.4)
+  }
+
+  .github, .linkedin {
+    font-size: 30px;
+    margin: 15px 10px;
+  }
+
+  .imgDireita {
+    background: radial-gradient(circle, rgba(255, 136, 0, 1)
+    52%, rgba(96, 64, 28, 1) 200%);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 430px;
+    z-index: -2;
+  }
+
+  .paiCarregando {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .carregandoProgress {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+  }
+
+  .divProgress {
+    width: 180px;
+    height: 25px;
+    -webkit-mask: radial-gradient(circle closest-side,#ffc547 94%,#0000) left/20% 100%;
+    background: linear-gradient(#ff9d47 0 0) left/0% 100% no-repeat #dbdcef;
+    animation: progress-c3ir73 2s infinite steps(6);
+    transform: scale(1.5);
+ }
+ 
+ @keyframes progress-c3ir73 {
+    100% {
+       background-size: 120% 100%;
+    }
+ }
+
+}
+
+@media only screen and ( min-width : 801px ) and ( max-width : 1024px ) {
+
+  @font-face {
+    font-family: Gotham-Black;
+    src: url('../fonts/Gotham-Spotify-Font/Gotham-Black.otf') format('truetype');
+  }
+
+  .paiLogin {
+    margin-top: 40px;
+  }
+
+  .loginEsquerda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoLogin {
+    margin: 20px 0 10px;
+    width: 30%;
+  }
+
+  .titleLogin {
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .inputBtnLogin {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginNome {
+    border-radius: 8px;
+    margin: 10px 0 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 30px;
+    width: 120%;
+  }
+
+  .loginBtn {
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 136, 0, 1);
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 130%;
+  }
+
+  .loginBtn:disabled {
+    filter: opacity(0.4);
+  }
+
+  .loginBtn:active {
+    filter: brightness(1.4)
+  }
+
+  .github, .linkedin {
+    font-size: 30px;
+    margin: 15px 10px;
+  }
+
+  .imgDireita {
+    background: radial-gradient(circle, rgba(255, 136, 0, 1)
+    52%, rgba(96, 64, 28, 1) 200%);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    max-height: 430px;
+    z-index: -2;
+  }
+
+  .paiCarregando {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .carregandoProgress {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+  }
+
+  .divProgress {
+    width: 180px;
+    height: 25px;
+    -webkit-mask: radial-gradient(circle closest-side,#ffc547 94%,#0000) left/20% 100%;
+    background: linear-gradient(#ff9d47 0 0) left/0% 100% no-repeat #dbdcef;
+    animation: progress-c3ir73 2s infinite steps(6);
+    transform: scale(1.5);
+ }
+ 
+ @keyframes progress-c3ir73 {
+    100% {
+       background-size: 120% 100%;
+    }
+ }
+
+}
+
+
+@media only screen and ( min-width : 1025px ) {
+
+  @font-face {
+    font-family: Gotham-Black;
+    src: url('../fonts/Gotham-Spotify-Font/Gotham-Black.otf') format('truetype');
+  }
+
+  .loginPai {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+  }
+
+  .paiLogin {
+    margin-top: 40px;
+  }
+
+  .loginEsquerda {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: 200px; */
+    width: 30%;
+  }
+
+  .logoLogin {
+    /* margin: 10px 0 80px 10px; */
+    width: 70%;
+  }
+
+  .titleLogin {
+    font-family: Gotham-Black;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .inputBtnLogin {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginNome {
+    border-radius: 8px;
+    margin: 10px 0 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 30px;
+    width: 90%;
+  }
+
+  .loginBtn {
+    background-color: rgba(255, 136, 0, 1);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 4px 0px black;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .loginBtn:disabled {
+    filter: opacity(0.4);
+    transform: scale(1);
+  }
+
+  .loginBtn:active {
+    filter: brightness(1.4)
+  }
+
+  .loginBtn:hover:enabled {
+    box-shadow: 2px 4px 4px black;
+    filter: brightness(1.3);
+    transform: scale(1.03);
+  }
+
+  .loginDireita {
+    background: radial-gradient(circle, rgba(255, 136, 0, 1)
+    52%, rgba(96, 64, 28, 1) 200%);
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+
+  .imgDireita {
+    margin-top: 20px;
+    width: 50vw;
+  }
+
+  .paiCarregando {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .carregandoProgress {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px;
+  }
+
+  .divProgress {
+    width: 180px;
+    height: 25px;
+    -webkit-mask: radial-gradient(circle closest-side,#ffc547 94%,#0000) left/20% 100%;
+    background: linear-gradient(#ff9d47 0 0) left/0% 100% no-repeat #dbdcef;
+    animation: progress-c3ir73 2s infinite steps(6);
+    transform: scale(1.5);
+ }
+ 
+ @keyframes progress-c3ir73 {
+    100% {
+       background-size: 120% 100%;
+    }
+ }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
-import './Favorites.css';
+import '../Styles/Favorites.css';
 import { getFavoriteSongs, removeSong } from '../services/favoriteSongsAPI';
 
 class Favorites extends React.Component {
@@ -10,7 +10,6 @@ class Favorites extends React.Component {
       loading: true,
       renderMusics: false,
       musicasFavoritas: {},
-      // carregando: true,
     };
   }
 
@@ -21,6 +20,7 @@ class Favorites extends React.Component {
       renderMusics: true,
       musicasFavoritas: pegandoMusicasFavoritas,
     });
+    console.log(pegandoMusicasFavoritas);
   }
 
   favorite = async (ele) => {
@@ -63,6 +63,7 @@ class Favorites extends React.Component {
         </audio>
         <label
           htmlFor={ `User-${ele.trackId}` }
+          id="user"
         >
           Favorita
           <input
@@ -70,6 +71,7 @@ class Favorites extends React.Component {
             id={ `User-${ele.trackId}` }
             name="checkSave"
             className={ ele.trackId }
+            className='nome'
             checked
             value={ ele.trackNumber }
             data-testid={ `checkbox-music-${ele.trackId}` }

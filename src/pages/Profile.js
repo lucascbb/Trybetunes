@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import { getUser } from '../services/userAPI';
-import './Profile.css';
+import '../Styles/Profile.css';
 import user from '../imagens/user.png';
 
 class Profile extends React.Component {
@@ -79,15 +79,7 @@ class Profile extends React.Component {
                     <p className="descProfile">{ descricao }</p>
                   </h3>
                 </div>
-                <Link to="/profile/edit" className="linkProfile">Editar perfil</Link>
-                {/* <button
-                type="button"
-                onClick={ async () => {
-                  await push('/profile/edit');
-                } }
-                >
-                  Editar perfil
-                </button> */}
+                <Link to="/trybetunes/profile/edit" className="linkProfile">Editar perfil</Link>
               </div>)}
         </div>
       </section>

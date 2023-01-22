@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import getMusics from '../services/musicsAPI';
 import MusicCard from '../components/MusicCard';
-import './Album.css';
+import '../Styles/Album.css';
 
 class Album extends React.Component {
   constructor() {
     super();
     const url = document.URL.split('/');
-    const identificação = url[4];
+    const identificação = url[5];
+
     this.state = {
       id: identificação,
       album: false,

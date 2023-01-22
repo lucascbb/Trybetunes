@@ -1,15 +1,20 @@
-@media only screen and ( min-width : 320px ) and ( max-width : 480px ) {
+@media only screen and ( min-width : 300px ) and ( max-width : 480px ) {
 
   .paiGeral-Profile {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
+    height: 600px;
+    border-top-left-radius: 80px;
+    box-shadow: -1px -2px 6px 2px rgba(82, 82, 82, 0.474);
+    margin-top: -75px;
   }
 
   .tituloProfile {
     margin: 0 30px;
   }
 
-  .imgProfile {
+  .imgProfile, .avatarProfile {
     border: 1px solid black;
     border-radius: 50%;
     height: 100px;
