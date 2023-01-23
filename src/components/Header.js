@@ -55,7 +55,7 @@ class Header extends React.Component {
                     Carregando...
                   </p>
                 </div>)
-              : 
+              :
                 <p
                   data-testid="header-user-name"
                   className="pHeader"
@@ -78,7 +78,7 @@ class Header extends React.Component {
               className="linkHeader"
             >
               <CgSearch className="searchHeader" />
-              <p>Search</p>
+              <p className="linkPHeader">Search</p>
             </Link>
             <Link
               to="/trybetunes/favorites"
@@ -86,7 +86,7 @@ class Header extends React.Component {
               className="linkHeader"
             >
               <FaHeart className="heartHeader" />
-              <p>Favoritos</p>
+              <p className="linkPHeader">Favoritos</p>
             </Link>
             <Link
               to="/trybetunes/profile"
@@ -94,7 +94,7 @@ class Header extends React.Component {
               className="linkHeader"
             >
               <CgProfile className="profileHeader" />
-              <p>Perfil</p>
+              <p className="linkPHeader">Perfil</p>
             </Link>
           </div>
         </div>

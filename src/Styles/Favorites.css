@@ -76,10 +76,112 @@
 
 @media only screen and ( min-width : 481px ) and ( max-width : 800px ) {
 
+  .paideTodos {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 80px;
+    box-shadow: -1px -2px 6px 2px rgba(82, 82, 82, 0.474);
+    margin-top: -105px;
+  }
+
   .tituloFavorites {
     border-bottom: 1px solid black;
-    margin: 30px 60px 20px 15px;
-    padding-left: 10px;
+    margin: 20px 60px 20px 15px;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+
+  .teste {
+    backdrop-filter: blur(6.5px);
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(70, 74, 126, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 4%;
+    width: 90%;
+  }
+
+  .paiGeralFavorites {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    width: 46vh;
+  }
+
+  .audioFavorites {
+    height: 30px;
+    margin: -10px 0 20px 15px;
+    width: 90%;
+  }
+
+  .nomeMusicaFavorites {
+    color: black;
+    font-size: 16px;
+    height: 5%;
+    margin-top: 10px;
+    width: 120%;
+  }
+
+  .nomeArtistaFavorites {
+    color: rgb(126, 123, 123);
+    font-size: 16px;
+    margin: 5px 0;
+    width: 120%;
+  }
+
+  .imgFavorites {
+    border-radius: 5px;
+    height: 80px;
+    margin: 10px 10px 0 20px;
+    width: 80px;
+  }
+
+  .names-audio-check-Favorites input {
+    cursor: pointer;
+    font-size: 30px;
+    margin: -20px 0 0 0.7rem;
+    position: relative;
+    top: -10px;
+    visibility: hidden;
+  }
+
+  .names-audio-check-Favorites input:before {
+    content: '\2661';
+    position: absolute;
+    transform: scale(0.5);
+    visibility: visible;
+  }
+
+  .names-audio-check-Favorites input:checked:before {
+    content: '\♥️';
+    position: absolute;
+    transform: scale(0.8);
+  }
+
+  #user {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+
+@media only screen and ( min-width : 801px ) and ( max-width : 1024px ) {
+
+  .paideTodos {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 80px;
+    box-shadow: -1px -2px 6px 2px rgba(82, 82, 82, 0.474);
+    margin-top: -105px;
+  }
+
+  .tituloFavorites {
+    border-bottom: 1px solid black;
+    margin: 20px 60px 20px 15px;
+    padding-top: 30px;
+    padding-left: 40px;
   }
 
   .teste {
@@ -242,6 +344,7 @@
 
   .paideTodos {
     overflow-y: auto;
+    overflow: hidden;
   }
 
   .allMusics {
