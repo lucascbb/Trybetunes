@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do projeto Trybetunes!
 
-Neste projeto você irá criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação será capaz de:
+Neste projeto eu criei o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação é capaz de:
 
   - Fazer login;
   - Pesquisar por uma banda ou artista;
