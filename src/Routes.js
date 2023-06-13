@@ -6,7 +6,6 @@ import Album from './pages/Album';
 import Favorites from './pages/Favorites';
 import Profile from './pages/Profile';
 import ProfileEdit from './pages/ProfileEdit';
-// import NotFound from './pages/NotFound';
 
 class Routes extends React.Component {
   render() {
@@ -18,7 +17,6 @@ class Routes extends React.Component {
         <Route path="/trybetunes/favorites" component={ Favorites } />
         <Route exact path="/trybetunes/profile/" component={ Profile } />
         <Route exact path="/trybetunes/profile/edit" component={ ProfileEdit } />
-        {/* <Route path="*" component={ NotFound } /> */}
       </Switch>
     );
   }
